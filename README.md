@@ -78,3 +78,6 @@ In the example function, multiple structures can be defined by changing one or m
 1.4 advanced functions
 
 The extraction functions of aerodynamic characteristics in the example functions are Matlab's own function Datcom import. Although this function extracts all important information from the output file, it has the problem of long running time. If large-scale aerodynamic characteristic calculation (such as evolutionary algorithm) is required, it will greatly waste computing resources and time. Therefore, this Toolbox provides the function of reading specific information. The function name is read_fit. M, which can be used with ga_switchblade. M. when using, copy the read_fit. M function to the corresponding output folder to quickly read relevant information.
+
+## 备注
+个人从CSND上看到的，DATCOM GUI——DATCOM-Tools使用介绍(https://blog.csdn.net/qq_40800981/article/details/122027172),加上了2.8.5坂本window的datcom程序
